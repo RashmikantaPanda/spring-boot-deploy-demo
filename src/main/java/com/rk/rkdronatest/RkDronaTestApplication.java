@@ -13,6 +13,10 @@ public class RkDronaTestApplication {
     public String hello(){
         return "Hello Rashmikanta";
     }
+    @GetMapping("/home")
+    public String home(){
+        return "Home Page";
+    }
     public static void main(String[] args) {
         SpringApplication.run(RkDronaTestApplication.class, args);
     }
